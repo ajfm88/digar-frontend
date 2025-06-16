@@ -7,7 +7,7 @@ export default function Home() {
     <div>
       <div className="grid w-full maz-w-sm items-cventer gap-1.5">
         <Label htmlFor="email">Email</Label>
-        <Input type="email" placeholder="Email" />
+        <Input type="email" name="email" placeholder="Email" />
       </div>
       <div className="grid w-full maz-w-sm items-cventer gap-1.5">
         <Label htmlFor="password">Password</Label>
